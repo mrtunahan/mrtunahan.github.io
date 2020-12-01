@@ -1,13 +1,13 @@
 $(document).ready(function () {
     new Typed('.firstText', {
-        strings: ["Hola, mi nombre es Tunahan"],
+        strings: ["Hello, I'am Tunahan"],
         typeSpeed: 20,
         startDelay: 900,
         showCursor: false
       });
     }),
     new Typed('.personalInfo', {
-        strings: ["I'm frontend software developer(Well at least trying to be!).<br> I am interested in web and mobile applications!👨‍💻"],
+        strings: ["I'm frontend software developer.<br> I am interested in web and mobile applications!"],
         typeSpeed: 20,
         startDelay: 1800,
         showCursor: false
