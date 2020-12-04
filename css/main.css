@@ -5,7 +5,7 @@ html {
 }
 
 body {
-    background: url("../img/north.jpg") no-repeat center center fixed;
+    background-image: linear-gradient(to right,rgb(0, 255, 179),rgb(115, 51, 160));
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -18,6 +18,22 @@ p {
     color: #ffff;
     font-size: 20px;
 }
+.navbar{
+    background-image: linear-gradient(to right,rgb(0, 255, 179),rgb(1, 217, 255),rgb(54, 100, 161),green,rgb(154, 81, 206),rgb(115, 51, 160));
+    margin: 0;
+}
+.nav-item{
+    font-size: large;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+li:hover {
+    background-color: rgb(94, 135, 197);
+    font-size: 125%;
+    border-radius: 25%;
+    
+}
+
 
 a {
     color: #ffff;
@@ -30,9 +46,9 @@ a:hover {
 }
 
 .rounded-img {
-    width: 120px;
-    height: 120px;
-    border: double 4px transparent;
+    width: 240px;
+    height: 240px;
+    border: double 2px transparent;
     border-radius: 80px;
     background-image: linear-gradient(white, white), radial-gradient(circle at top left, #C9D6FF, #E2E2E2);
     background-clip: content-box, border-box;
@@ -119,10 +135,10 @@ a:hover {
     text-align: center;
     max-width: 500px;
     max-height: 300px;
-    margin-top: 30px;
+    margin-top: 40px;
     padding: 10px;
     animation: showIcons 2s forwards;
-    animation-delay: 7.5s;
+    animation-delay: 4.5s;
     opacity: 0;
     visibility: visible;
 }
@@ -138,8 +154,8 @@ a:hover {
 }
 
 .rounded-icon {
-    border: 1px solid;
-    border-radius: 50%;
+    border: 1px solid yellow;
+    border-radius: 30%;
     width: 50px;
     height: 50px;
     text-align: center;
@@ -152,24 +168,24 @@ a:hover {
 }
 
 .rounded-icon:hover {
-    background: rgba(10, 10, 10, 0.1);
-    border-color: rgba(10, 10, 10, 0.1);
+    background: rgba(238, 255, 0, 0.1);
+    border-color: rgba(3, 189, 18, 0.1);
 }
 
 .fa-twitter:hover {
-    background-color: #00aced;
+    background-color: #d1750c;
 }
 
 .fa-linkedin:hover {
-    background-color: #0073a4;
+    background-color: #167891;
 }
 
-.fa-medium:hover {
-    background-color: #0BE370;
+.fa-instagram:hover {
+    background-color: #0e914b;
 }
 
 .fa-github:hover {
-    background-color: #302F2F;
+    background-color: #a879b4f5;
 }
 
 .cursor {
@@ -189,34 +205,4 @@ a:hover {
 
 }
 
-.github-corner:hover .octo-arm {
-    animation: octocat-wave 560ms ease-in-out;
-}
 
-@keyframes octocat-wave {
-
-    0%,
-    100% {
-        transform: rotate(0);
-    }
-
-    20%,
-    60% {
-        transform: rotate(-25deg);
-    }
-
-    40%,
-    80% {
-        transform: rotate(10deg);
-    }
-}
-
-@media (max-width: 500px) {
-    .github-corner:hover .octo-arm {
-        animation: none;
-    }
-
-    .github-corner .octo-arm {
-        animation: octocat-wave 560ms ease-in-out;
-    }
-}
