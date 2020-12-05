@@ -19,7 +19,7 @@ $(document).ready(function () {
         showCursor: false
     }),
     new Typed('.mediaInfoEnd', {
-        strings: ["By clicking the icon down below"],
+        strings: ["My CV ⬇️"],
         typeSpeed: 20,
         startDelay: 7000,
         showCursor: false
